@@ -1,0 +1,3 @@
+D:/Desktop/Game/cmake-build-debug/CMakeFiles/Game.dir
+D:/Desktop/Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Desktop/Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
