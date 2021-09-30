@@ -36,16 +36,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,8 +45,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632934663486</updated>
-      <workItem from="1632934665148" duration="324000" />
+      <workItem from="1632934665148" duration="1743000" />
+      <workItem from="1633009264060" duration="1779000" />
+      <workItem from="1633011071714" duration="1185000" />
+      <workItem from="1633012963180" duration="595000" />
+      <workItem from="1633013650379" duration="1786000" />
+      <workItem from="1633015463666" duration="641000" />
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1633015433716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633015433716" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1633015433715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633015433715" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1633015433715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633015433715" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1633015433715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633015433715" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1633014703287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633014703287" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1633014703287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633014703287" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1633014703287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633014703287" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1633014703287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633014703287" />
   </component>
 </project>
