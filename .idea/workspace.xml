@@ -29,6 +29,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Game" TARGET_NAME="Game" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Game" RUN_TARGET_NAME="Game">
@@ -51,27 +52,43 @@
       <workItem from="1633012963180" duration="595000" />
       <workItem from="1633013650379" duration="1786000" />
       <workItem from="1633015463666" duration="641000" />
-      <workItem from="1633017861131" duration="519000" />
+      <workItem from="1633017861131" duration="725000" />
+      <workItem from="1633027143515" duration="28000" />
+      <workItem from="1633037566266" duration="19000" />
+      <workItem from="1633037598800" duration="8000" />
+      <workItem from="1633037622634" duration="11000" />
+      <workItem from="1633118175464" duration="493000" />
+      <workItem from="1633464742891" duration="50000" />
+      <workItem from="1633816810692" duration="13000" />
+      <workItem from="1633876646050" duration="13000" />
+      <workItem from="1633887996885" duration="69000" />
+      <workItem from="1633888255717" duration="21000" />
+      <workItem from="1633976946039" duration="36000" />
+      <workItem from="1634229031669" duration="663000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1461" height="172" key="GridCell.Tab.0.bottom" timestamp="1633017992168">
+    <state x="730" y="355" key="FileChooserDialogImpl" timestamp="1633888274073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1461" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633017992168" />
-    <state width="1461" height="172" key="GridCell.Tab.0.center" timestamp="1633017992168">
+    <state x="730" y="355" key="FileChooserDialogImpl/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633888274073" />
+    <state width="1385" height="211" key="GridCell.Tab.0.bottom" timestamp="1634229699558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1461" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633017992168" />
-    <state width="1461" height="172" key="GridCell.Tab.0.left" timestamp="1633017992168">
+    <state width="1385" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1634229699558" />
+    <state width="1385" height="211" key="GridCell.Tab.0.center" timestamp="1634229699558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1461" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633017992168" />
-    <state width="1461" height="172" key="GridCell.Tab.0.right" timestamp="1633017992168">
+    <state width="1385" height="211" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1634229699558" />
+    <state width="1385" height="211" key="GridCell.Tab.0.left" timestamp="1634229699558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1461" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1633017992168" />
+    <state width="1385" height="211" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1634229699558" />
+    <state width="1385" height="211" key="GridCell.Tab.0.right" timestamp="1634229699558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1385" height="211" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1634229699558" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1633014703287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

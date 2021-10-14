@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 
 using namespace std;
-void checkCollision(sf::RectangleShape& player, const sf::RectangleShape& cube, bool& isGround)
+void checkCollision(sf::RectangleShape& player, const sf::RectangleShape& cube, bool& isGround, bool& isJump, float& countJump)
 {
     if(player.getGlobalBounds().intersects(cube.getGlobalBounds()))
     {
@@ -41,6 +41,8 @@ void checkCollision(sf::RectangleShape& player, const sf::RectangleShape& cube, 
                 break;
             case 3:
                 player.setPosition(player.getPosition().x, cube.getPosition().y + cube.getSize().y);
+                isJump = false;
+                countJump = 15;
                 break;
         }
     }
@@ -61,19 +63,20 @@ int main()
             "10000000000000000001",
             "10000000000000000001",
             "10000000000000000001",
+            "10011100000000000001",
             "10000000000000000001",
-            "10000000000000000001",
-            "10000000000000000001",
-            "10000000000000000001",
+            "10000010000000000001",
+            "10000011111000000001",
             "10000000000000011101",
             "10000000000000000001",
-            "10000000000000000001",
+            "11110000000000000001",
             "11111111111111111111"
 
     };
     bool isJump = false;
-    float countJump = 20;
+    float countJump = 15;
     bool isGround = false;
+    float countFall = 1.f;
     while(window.isOpen())
     {
         float deltaTime = clock.restart().asSeconds();
@@ -105,9 +108,17 @@ int main()
         }
         if(!isJump && !isGround)
         {
-            player.move(0, 4.f * deltaTime);
+            player.move(0, countFall * deltaTime);
+            if(countFall < 8.f)
+            {
+                countFall += 1.f * deltaTime;
+            }
+        }
+        else{
+            countFall = 1;
         }
         isGround = false;
+
         window.clear();
         for(int i = 0;  i < 15; ++i)
         {
@@ -120,13 +131,12 @@ int main()
                 cube.setFillColor(sf::Color::Blue);
                 cube.setPosition(j * 32, i * 32);
                 window.draw(cube);
-                checkCollision(player, cube, isGround);
+                checkCollision(player, cube, isGround, isJump, countJump);
 
             }
         }
         window.draw(player);
         window.display();
-        cout << isGround << endl;
     }
     return 0;
 }
