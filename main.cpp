@@ -8,26 +8,27 @@ void checkCollision(sf::RectangleShape& player, const sf::RectangleShape& cube, 
     {
         int i = -1;
         int min = 10000;
-        if(abs((player.getPosition().x+player.getSize().x) - cube.getPosition().x) < min)
+        if(abs( (player.getPosition().y+player.getSize().y) - cube.getPosition().y ) < min)
         {
-            min = abs((player.getPosition().x+player.getSize().x) - cube.getPosition().x);
-            i = 0;
+            min = abs( (player.getPosition().y+player.getSize().y) - cube.getPosition().y );
+            i = 2;
         }
         if(abs(player.getPosition().x - (cube.getPosition().x + cube.getSize().x)) < min)
         {
             min = abs(player.getPosition().x - (cube.getPosition().x + cube.getSize().x));
             i = 1;
         }
-        if(abs( (player.getPosition().y+player.getSize().y) - cube.getPosition().y ) < min)
+        if(abs((player.getPosition().x+player.getSize().x) - cube.getPosition().x) < min)
         {
-            min = abs( (player.getPosition().y+player.getSize().y) - cube.getPosition().y );
-            i = 2;
+            min = abs((player.getPosition().x+player.getSize().x) - cube.getPosition().x);
+            i = 0;
         }
         if(abs( player.getPosition().y - (cube.getPosition().y + cube.getSize().y) ) < min)
         {
             min = abs( player.getPosition().y - (cube.getPosition().y + cube.getSize().y) );
             i = 3;
         }
+
         switch (i) {
             case 0:
                 player.setPosition(cube.getPosition().x - player.getSize().x, player.getPosition().y);
